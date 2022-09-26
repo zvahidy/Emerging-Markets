@@ -54,7 +54,7 @@ The original training and testing indicated a 100% for -1 and 63% for 1. I then 
 
 What impact resulted from increasing or decreasing the training window?
 
-The training widow Dateoffset was increased from 3 to 6 months and the results show that the precision decreased from 100% for -1 to 59% and from 63% for 1 to 58%. These agjustments did not improve the precision.
+The training widow Dateoffset was increased from 3 to 6 months and the results show that the precision decreased from 100% for -1 to 59% and from 63% for 1 to 58%. These agjustments did not improve the precision and in fact worsened. 
 
 SMA short window=50 long window=200 (3 months training Dateoffset)
 
@@ -89,3 +89,4 @@ Unlicesened
 ## Appendix
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
 https://jupyterlab.readthedocs.io/en/stable/
+
