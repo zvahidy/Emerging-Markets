@@ -53,6 +53,7 @@ The original training and testing indicated a 100% for -1 and 63% for 1. I then 
 
 
 What impact resulted from increasing or decreasing the training window?
+
 The training widow Dateoffset was increased from 3 to 6 months and the results show that the precision decreased from 100% for -1 to 59% and from 63% for 1 to 58%. These agjustments did not improve the precision.
 
 SMA short window=50 long window=200 (3 months training Dateoffset)
@@ -61,6 +62,7 @@ SMA short window=50 long window=200 (3 months training Dateoffset)
 ![](SMA_50_200_test_report.png)
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
+
 I chose to increase the windows and the results indicate that the precision for -1 decreased to 56% when originally it was 100% for -1 and 63% to 54%
 
 AdaBoostClassifier (ABC)
@@ -69,6 +71,7 @@ AdaBoostClassifier (ABC)
 ![](SVM_vs_ABC_reports.png)
 
 Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+
 Although the AdaBoost showed a decrease in precision for -1 from 100% to 97%, precision for 1 increase from 63% to 82%. Overall the new model performed better than the baseline model. 
 
 ## Contributors
@@ -86,11 +89,3 @@ Unlicesened
 ## Appendix
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
 https://jupyterlab.readthedocs.io/en/stable/
-
-
-
-
-Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your README.md file.
-Save a PNG image of the cumulative product of the actual returns vs. the strategy returns for this updated trading algorithm, and write your conclusions in your README.md file.
-
-Answer the following questions: 
